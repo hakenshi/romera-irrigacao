@@ -9,7 +9,7 @@
                     <li ><a class="text-sm md:text-base
                         hover:text-romera-green-600
                          " 
-                        href="#">{{ $link }}</a></li>
+                        href="{{ route($link['route']) }}">{{ $link['text'] }}</a></li>
                 @endforeach
             </ul>
         </div>
