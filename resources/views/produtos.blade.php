@@ -1,9 +1,3 @@
-<x-layout title="Romera Irrigação">
-        <section class="min-h-dvh md:min-h-[75.4vh] flex flex-col items-center gap-10">
-            <h2 class="bg-romera-green-500 w-full h-fit p-5 uppercase text-center text-white font-semibold">Trabalhamos com as melhores tecnologias do mercado!</h2>
-            <div class="bg-white w-11/12 min-h-96 rounded-lg p-5">
-                <h3 class="text-center text-2xl font-semibold">Produtos e Serviços</h3>
-                
-            </div>
-        </section>
-</x-layout>
+<x-default :descricao="'Produtos e Serviços'" :img="asset('slide-6.jpg')">
+    <p>A Romera Irrigação é líder no mercado agrícola, oferecendo soluções completas em irrigação. Fabricamos pivôs de última geração que garantem eficiência e sustentabilidade na distribuição de água, além de fornecer uma ampla gama de produtos agrícolas de alta qualidade. Nossa equipe especializada também realiza montagem e manutenção de pivôs, assegurando um serviço confiável e duradouro para nossos clientes.</p>
+</x-default>

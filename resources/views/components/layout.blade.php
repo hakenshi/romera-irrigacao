@@ -12,8 +12,8 @@
     <x-navbar :links="[
         ['text'=> 'Início', 'route' => 'home'], 
         ['text' => 'Produtos', 'route' => 'produtos'], 
-        ['text' => 'Financiamento', 'route' => 'home'], 
-        ['text' => 'Contato', 'route' => 'home']
+        ['text' => 'Financiamento', 'route' => 'financiamento'], 
+        ['text' => 'Contato', 'route' => 'contato']
         ]" />
     {{ $slot }}
     <x-footer />
